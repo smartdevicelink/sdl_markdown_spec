@@ -24,7 +24,7 @@ In addition to the Markdown file, assets like code samples, tables, and images, 
 
 When referencing assets, the parser will first look at the /assets directory at the same level as the “index.md” file. If the asset is not found, the parser will look up the directory tree until it reaches the global /assets directory. Assets cannot be shared across repositories.
 
-![Example Directory Structure](./Assets/image01.png)
+![Example Directory Structure](https://github.com/smartdevicelink/sdl_markdown_spec/blob/master/assets/image01.png)
 
 
 ## Basic Markdown Syntax
