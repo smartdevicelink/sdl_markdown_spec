@@ -26,6 +26,23 @@ When referencing assets, the parser will first look at the /assets directory at 
 
 ![Example Directory Structure](https://github.com/smartdevicelink/sdl_markdown_spec/blob/master/assets/image01.png)
 
+#### Nesting
+Maximum pages level in hierarchy is 2 only.
+
+Example:
+```
+docs \
+	Level 1 \
+		index.md
+		level 2 \
+			index.md
+		level 2 \
+			index.md
+		...
+	level 1 \
+		index.md
+	...
+```
 
 ## Basic Markdown Syntax
 #### Page headers
