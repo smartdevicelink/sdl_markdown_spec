@@ -53,6 +53,21 @@ Notes, Chart Column Titles
 Chart Row Titles
 `######`
 
+###### Header anchor
+Each Header could be used as [anchor links](#anchor-links)
+The rule for links is following:
+
+- remove '.' (dots)
+- replace ' ' (spaces) with '-' (hyphen)
+- convert all upper case letters to lower case
+
+Example:
+```
+##  4.1.4  Chapter 4.1.4 References
+---
+[link text](#--414--chapter-414-references)
+```
+
 #### Text Styling
 ###### Emphasis
 `_emphasis_`, or `*emphasis*`
@@ -102,6 +117,9 @@ Supports nested blockquotes
 ---
 [reference text]: https://www.google.com
 ```
+
+###### Anchor links
+`[link text](#achor)`
 
 #### Images
 ###### Inline Image
