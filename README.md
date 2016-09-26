@@ -189,6 +189,12 @@ Line 1 text
 Line 2 text
 ```
 
+##### Table text Break
+```
+| Header           | Header 2           |
+| ---------------- | ------------------ |
+| Short text       | Long text line 1 <br> Long text line 2 <br> Long text line 3 <br> Long text line 4 |
+```
 
 ## Extended Markdown Syntax
 #### Notes
