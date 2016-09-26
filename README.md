@@ -208,14 +208,14 @@ Content
 !!!
 ```
 
-###### HMI Must
+###### Developer Must
 ```
 !!! MUST
 Content
 !!!
 ```
 
-###### HMI May
+###### Developer May
 ```
 !!! MAY
 Content
