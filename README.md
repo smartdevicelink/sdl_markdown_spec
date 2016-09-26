@@ -261,6 +261,9 @@ key2: value2
 ---
 ```
 
+## HTML
+DocDown converts documents from Markdown into HTML, therefore most HTML tags are supported.  Use HTML tags with caution as each template can render the them differently leading to unexpected outcomes.
+
 ## Language Support
 Localization of files is handled by appending the language code to the file itself. Directories currently cannot be localized. The default language is `_en_us` and is optional. Assets can be localized as well, in the same fashion.
 
